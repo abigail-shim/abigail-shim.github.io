@@ -178,6 +178,26 @@ nav a:hover {
     display: block;
 }
 
+.campaign {
+    width: 90%;
+    margin: 120px auto;
+}
+
+.campaign-info {
+    margin-bottom: 40px;
+}
+
+.campaign-info h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.campaign-info p {
+    max-width: 600px;
+    line-height: 1.7;
+    color: #666666;
+}
+
 @media (max-width: 900px) {
 
     nav {
