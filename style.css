@@ -104,14 +104,26 @@ nav a:hover {
     transition: opacity 0.3s ease;
 }
 
+.work-card {
+    overflow: hidden;
+}
+
+.work-card img {
+    transition:
+        transform 0.5s ease,
+        opacity 0.3s ease;
+}
+
 .work-card img:hover {
-    opacity: 0.85;
+    transform: scale(1.02);
+    opacity: 0.92;
 }
 
 .work-card h2 {
-    margin-top: 20px;
-    font-size: 1.3rem;
-    font-weight: 500;
+    margin-top: 18px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 
