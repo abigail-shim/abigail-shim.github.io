@@ -162,38 +162,39 @@ nav a:hover {
     color: #666666;
 }
 
-.gallery {
-    width: min(1200px, 90%);
-
-    margin: 50px auto 0 auto;
-
-    display: grid;
-
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
-    gap: 20px;
-
-    align-items: start;
+.photography-container {
+    scroll-snap-type: y mandatory;
 }
 
-.gallery img {
+.photo-slide {
     width: 100%;
 
-    height: auto;
+    height: 100vh;
 
-    display: block;
+    display: flex;
 
-    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
 
-    transition:
-        transform 0.4s ease,
-        opacity 0.3s ease;
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    scroll-snap-align: start;
 }
 
-.gallery img:hover {
-    transform: scale(1.01);
+.photo-slide img {
+    max-width: 90vw;
 
-    opacity: 0.95;
+    max-height: 90vh;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
