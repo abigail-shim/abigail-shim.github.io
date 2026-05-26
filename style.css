@@ -32,6 +32,16 @@ h2 {
     border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
+footer {
+    text-align: center;
+
+    padding: 60px 20px;
+
+    font-size: 0.8rem;
+
+    color: #777777;
+}
+
 nav {
     display: flex;
     justify-content: center;
