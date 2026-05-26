@@ -149,8 +149,9 @@ nav a:hover {
 }
 
 .page-header h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+    font-size: clamp(4rem, 8vw, 7rem);
+
+    line-height: 0.9;
 }
 
 .page-header p {
