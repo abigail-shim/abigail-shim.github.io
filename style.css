@@ -198,24 +198,30 @@ nav a:hover {
 
 
 .campaign {
-    width: min(1400px, 92%);
-
-    margin: 120px auto;
+    width: min(1300px, 92%);
+    margin: 140px auto;
 }
 
 .campaign-info {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .campaign-info h2 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+
+    margin-bottom: 15px;
+
+    line-height: 0.95;
 }
 
 .campaign-info p {
-    max-width: 600px;
+    max-width: 650px;
+
     line-height: 1.7;
+
     color: #666666;
+
+    font-size: 1rem;
 }
 
 .gallery img {
