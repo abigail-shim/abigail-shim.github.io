@@ -228,6 +228,11 @@ nav a:hover {
     cursor: pointer;
 }
 
+.photo-section {
+    width: min(1300px, 92%);
+    margin: 120px auto;
+}
+
 @media (max-width: 900px) {
 
     nav {
