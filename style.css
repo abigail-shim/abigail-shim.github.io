@@ -184,9 +184,9 @@ nav a:hover {
 }
 
 .photo-slide img {
-    max-width: 90vw;
+    max-width: min(1100px, 88vw);
 
-    max-height: 90vh;
+    max-height: 85vh;
 
     object-fit: contain;
 
